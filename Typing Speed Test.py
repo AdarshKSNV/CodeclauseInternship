@@ -16,8 +16,8 @@ def game():
 		else:
 			print("Wrong Input")
 
-	words = ['programming', 'coding', 'algorithm',
-			'systems', 'python', 'software']
+	words = ['Codeclause', 'Pragati Engineering College', 'Information Technology',
+			'Adarsh', 'Python Development', 'Software Developer']
 	word = random.randint(0, (len(words)-1))
 	start = timer()
 	windows = Tk()
